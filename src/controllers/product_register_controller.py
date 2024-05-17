@@ -2,6 +2,7 @@ from typing import Dict
 from src.models.entities.product import Product
 from src.models.repositories.product_repository import product_repository
 
+
 class ProductRegister:
     def insert(self, new_product_informations:Dict) -> Dict:
         try:
